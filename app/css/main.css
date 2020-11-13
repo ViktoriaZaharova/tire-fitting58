@@ -172,6 +172,9 @@ h1 {
 .mb-35 {
   margin-bottom: 35px; }
 
+.mb-30 {
+  margin-bottom: 30px; }
+
 .links-accent {
   color: #ED2823;
   font-size: 12px;
@@ -186,7 +189,7 @@ input {
   font-family: "Noto Sans", sans-serif;
   height: 30px;
   width: 100%;
-  padding: 0 28px 0 11px;
+  padding: 0 11px;
   background: transparent;
   font-size: 13px;
   color: #FFFFFF;
@@ -584,6 +587,114 @@ footer {
   width: 100%;
   height: 100%; }
 
+.vacancy-box {
+  height: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 18px 25px 20px 18px;
+  color: #403F41;
+  font-size: 12px; }
+  .vacancy-box h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold; }
+  .vacancy-box .btn {
+    height: 40px;
+    max-width: 171px;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase; }
+
+.vacancy-box__head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 16px; }
+
+.photo-user {
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 20px 0 0; }
+  .photo-user img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.vacancy-box__footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 21px 0 0;
+  font-size: 12px; }
+
+.questionnaire {
+  margin: 123px 0 310px; }
+  .questionnaire h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold; }
+  .questionnaire .description-title {
+    text-align: left; }
+
+.necessarily {
+  font-size: 12px; }
+
+.color-red {
+  color: #ED2823; }
+
+.form-questionnaire {
+  margin: 39px 0 0; }
+  .form-questionnaire label {
+    margin: 0 0 17px;
+    max-width: none; }
+  .form-questionnaire input {
+    border: 1px solid #ED2823;
+    color: #403F41;
+    font-size: 13px;
+    height: 40px; }
+    .form-questionnaire input::-webkit-input-placeholder {
+      color: #403F41; }
+    .form-questionnaire input::-moz-placeholder {
+      color: #403F41; }
+    .form-questionnaire input::-ms-input-placeholder {
+      color: #403F41; }
+    .form-questionnaire input::placeholder {
+      color: #403F41; }
+  .form-questionnaire .btn {
+    height: 40px;
+    max-width: 171px;
+    font-size: 12px;
+    text-transform: uppercase; }
+  .form-questionnaire .consent {
+    margin: 7px 0 0;
+    color: #C4C4C4; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -649,6 +760,12 @@ footer {
     line-height: normal; }
   footer .form .consent {
     margin: 10px auto 0;
+    text-align: left; }
+  .vacancy-box h3 {
+    font-size: 18px; }
+  .questionnaire {
+    margin: 40px 0; }
+  .form-questionnaire .consent {
     text-align: left; } }
 
 @media only screen and (max-width: 768px) {
