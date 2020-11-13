@@ -1,0 +1,530 @@
+@import "fonts"
+@import "vars"
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  &:before, &:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+*::-webkit-input-placeholder
+  color: #666
+  opacity: 1
+
+*:-moz-placeholder
+  color: #666
+  opacity: 1
+
+*::-moz-placeholder
+  color: #666
+  opacity: 1
+
+*:-ms-input-placeholder
+  color: #666
+  opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+  color: #666
+
+body input:required:valid,
+body textarea:required:valid
+  color: #666
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after, q:before, q:after
+  content: ''
+  content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+body
+  font-size: 16px
+  min-width: 320px
+  position: relative
+  line-height: normal
+  font-family: $default-font
+  color: #000
+  background: #fff
+
+html, body
+  overflow-x: hidden
+
+img
+  display: block
+  max-width: 100%
+  height: auto
+
+.text-center
+  text-align: center
+
+a
+  display: block
+  text-decoration: none
+  transition: .3s ease
+  outline: none
+
+  &:hover, &:focus
+    text-decoration: none
+
+select
+  outline: none
+  font-family: $default-font
+  color: #000000
+  font-size: 14px
+  box-sizing: border-box
+  -webkit-appearance: none
+  appearance: none
+  border: 1px solid #403F41
+    radius: 10px
+  padding: 0 22px 0 12px
+  background: #fff url("../img/arrow-bottom.svg") no-repeat 96% center
+    size: 17px
+  height: 30px
+
+.select-location
+  max-width: 171px
+  width: 100%
+
+.btn
+  display: flex
+  align-items: center
+  justify-content: center
+  text-align: center
+  border: none
+  height: 30px
+  border-radius: 10px
+  font-weight: bold
+  line-height: 1
+  padding: 0
+
+.btn-accent
+  color: #fff
+  box-shadow: 0 4px 12px rgba(237, 40, 35, 0.25)
+  background: #ED2823
+  font-size: 17px
+  &:hover
+    box-shadow: none
+    color: #fff
+
+.btn-white
+  background: #fff
+  color: #403F41
+  font-size: 14px
+  text-transform: uppercase
+
+.btn-border
+  filter: drop-shadow(0px 4px 12px rgba(237, 40, 35, 0.25))
+  border: 2px solid #fff
+  border-radius: 10px
+  padding: 6px 15px
+  font-size: 24px
+  height: auto
+  color: #ffffff
+  font-weight: normal
+  &:hover
+    background: #fff
+    color: $accent
+
+h1
+  font-size: 50px
+  font-weight: bold
+  font-style: italic
+  width: 100%
+  font-family: $font
+  color: #000
+  text-transform: uppercase
+  margin: 0 0 80px
+
+.mb-20
+  margin-bottom: 20px
+
+.mb-35
+  margin-bottom: 35px
+
+.links-accent
+  color: $accent
+  font-size: 12px
+  font-weight: bold
+
+  &:hover
+    color: #000
+
+input
+  outline: none
+  box-sizing: border-box
+  font-family: $default-font
+  height: 30px
+  width: 100%
+  padding: 0 28px 0 11px
+  background: transparent
+  font-size: 13px
+  color: #FFFFFF
+  border: 1px solid #FFFFFF
+    radius: 10px
+  &::placeholder
+    color: #FFFFFF
+
+label
+  display: block
+
+.form
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  justify-content: space-between
+  label
+    max-width: 212px
+    width: 100%
+  select
+    max-width: none
+    background: transparent url("../img/arrow-white.svg") no-repeat 96% center
+      size: 17px
+    color: #FFFFFF
+    border: 1px solid #FFFFFF
+      radius: 10px
+  .btn
+    max-width: 171px
+    width: 100%
+
+.consent
+  font-size: 9px
+  max-width: 172px
+  width: 100%
+
+.fill-none
+  fill: none
+
+.icon-svg
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+
+//header
+.header-top
+  padding: 15px 0 27px
+
+  .btn
+    padding: 0 14px
+
+.header-top__wrapper
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+
+.logo
+  max-width: 172px
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+
+.schedule
+  font-size: 12px
+  color: #403F41
+
+  p
+    font-weight: bold
+
+  span
+    text-transform: uppercase
+    color: #ED2823
+    margin: 5px 0 0
+    font-size: 14px
+
+.phone
+  font-size: 24px
+  font-weight: bold
+  font-family: $font
+  font-style: italic
+  color: #000
+
+.list-social
+  display: flex
+  align-items: center
+
+  li
+    margin: 0 18px 0 0
+
+    &:last-child
+      margin: 0
+  svg
+    fill: $accent
+
+.link-vk
+  width: 25px
+  height: 14px
+
+.link-insta
+  width: 19px
+  height: 19px
+
+.link-fb
+  width: 10px
+  height: 18px
+
+.link-ok
+  width: 10px
+  height: 18px
+
+.header-bottom
+  background: #ED2823
+  .select-location, .schedule, .list-social
+    display: none
+
+.btn-close
+  margin: 0 0 20px auto
+  position: relative
+  width: 20px
+  height: 20px
+  display: none
+  &:before, &:after
+    content: ''
+    position: absolute
+    left: 7px
+    top: 0
+    width: 2px
+    height: 100%
+    background: #ffffff
+  &:before
+    transform: rotate(135deg)
+  &:after
+    transform: rotate(45deg)
+
+
+.btn-burger
+  width: 20px
+  height: 14px
+  display: none
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+
+  span
+    height: 2px
+    background: #ED2823
+    width: 100%
+
+.nav-menu
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+
+  li
+    margin: 0 46px 0 0
+
+    &:last-child
+      margin: 0
+
+    a
+      color: #ffff
+      font-size: 14px
+      padding: 10px 0
+
+      &:hover
+        text-decoration: underline
+
+//.wrapper
+.wrapper
+  margin: 47px 0 0
+
+//.article
+.article-box
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
+  border-radius: 10px
+  background: #fff
+  height: 100%
+
+  h3
+    font-size: 18px
+    font-weight: bold
+    text-transform: uppercase
+    margin: 0 0 8px
+    color: #000
+
+.article-box__img
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  overflow: hidden
+  border-radius: 10px
+  height: 186px
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.article-box__body
+  padding: 20px
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto
+  padding: 0 10px
+
+//.consultation
+.consultation
+  margin: 58px 0 122px
+
+.consultation-box
+  color: #fff
+  background: $accent
+  padding: 15px 47px 32px
+  box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  border-radius: 10px
+  h3
+    font-size: 24px
+    font-weight: bold
+    text-align: center
+    width: 100%
+    text-transform: uppercase
+
+.description-title
+  width: 100%
+  text-align: center
+  margin: 1px auto 29px
+  font-size: 18px
+
+//footer
+footer
+  background: $accent
+  color: #fff
+  overflow: hidden
+  .phone
+    color: #fff
+    margin: 0 0 30px
+    font-size: 50px
+  .form
+    justify-content: flex-start
+    label
+      margin: 0 30px 0 0
+    .consent
+      margin: 18px 0 0 240px
+
+.btn-view
+  max-width: 267px
+  width: 100%
+  text-align: left
+  line-height: 33px
+  margin: 0 0 43px
+
+.map
+  height: 100%
+  width: 950px
+  margin: 0 0 0 auto
+  position: relative
+  z-index: 1
+  iframe
+    width: 100%
+    height: 100%
+
+.footer-content
+  padding: 68px 0 128px
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    right: -240px
+    bottom: -100px
+    background: url("../img/footer-decor.svg") no-repeat center top
+      size: 100%
+    width: 1500px
+    height: 202px
+
+.box-consult
+  max-width: 490px
+  width: 100%
+  font-size: 18px
+  margin: 0 0 26px
+  h3
+    font-size: 24px
+    font-weight: bold
+    text-transform: uppercase
+
+//main-sale
+.main-sale
+  margin: 0 0 80px
+
+.sale-box
+  position: relative
+  width: 100%
+  height: 100%
+  border-radius: 10px
+  overflow: hidden
+  color: #fff
+  min-height: 268px
+  &:before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 59.55%)
+    z-index: 1
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+  h3
+    font-size: 25px
+    font-weight: bold
+    text-transform: uppercase
+    max-width: 290px
+    width: 100%
+  .btn
+    margin: auto 0 0
+    max-width: 171px
+    width: 100%
+    height: 40px
+    font-size: 12px
+    text-transform: uppercase
+
+.sale-box__body
+  position: relative
+  z-index: 1
+  padding: 47px 49px 36px
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  width: 100%
+  height: 100%
+
+
+@import "media"
+// Всегда в конце
