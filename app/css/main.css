@@ -1004,6 +1004,21 @@ footer {
   .table-price__category:last-child {
     padding: 0; }
 
+.main-service-page .box-text {
+  font-size: 14px; }
+  .main-service-page .box-text strong {
+    font-weight: bold;
+    margin: 30px 0 0;
+    display: block; }
+
+.main-service-page h1 {
+  margin: 0 0 47px;
+  max-width: 360px;
+  width: 100%; }
+
+.main-service-page .table-price {
+  margin: 64px 0 67px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -1105,7 +1120,13 @@ footer {
   .reviews-box {
     margin: 20px auto; }
   h2 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .main-service-page .box-text {
+    margin: 0 0 20px; }
+    .main-service-page .box-text strong {
+      margin: 20px 0 0; }
+  .main-service-page h1 {
+    max-width: none; } }
 
 @media only screen and (max-width: 768px) {
   .header-bottom {
@@ -1210,7 +1231,9 @@ footer {
   .tab-content {
     margin: 20px 0 0; }
   h2 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .main-service-page h1 {
+    margin: 0 0 30px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
