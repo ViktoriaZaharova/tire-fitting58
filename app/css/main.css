@@ -863,9 +863,6 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 14px 20px 14px 28px;
   text-transform: uppercase;
   color: #000;
@@ -879,6 +876,15 @@ footer {
     height: 22px;
     fill: #ED2823;
     -webkit-transition: .3s ease;
+    transition: .3s ease;
+    margin: 0 0 0 auto; }
+  .nav-pills .nav-link .icon-location {
+    width: 21px;
+    height: 36px;
+    fill: #ED2823;
+    margin: 0 23px 0 0; }
+  .nav-pills .nav-link .icon-svg {
+    -webkit-transition: .3s ease;
     transition: .3s ease; }
 
 .nav-pills .active {
@@ -888,6 +894,29 @@ footer {
           box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25); }
   .nav-pills .active .icon-svg {
     fill: #fff; }
+
+.nav-pills .name-street {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: none;
+  display: block; }
+
+.nav-pills .phone-shop {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: none; }
+
+.address-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   background: #ED2823; }
@@ -1302,6 +1331,98 @@ footer {
     text-transform: uppercase;
     max-width: 260px; }
 
+.main-contacts .map {
+  height: 538px;
+  width: 100%; }
+
+.gallery-slider {
+  width: 100%;
+  padding: 0 70px;
+  margin: 34px 0 0; }
+  .gallery-slider .slick-next {
+    right: 10px; }
+  .gallery-slider .slick-prev {
+    left: 10px; }
+
+.gallery-box {
+  max-width: 171px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 0 auto; }
+
+.contacts-section {
+  margin: 70px 0 60px; }
+  .contacts-section .form {
+    padding: 0; }
+  .contacts-section .form-group {
+    max-width: 150px; }
+  .contacts-section .consultation-sale__box h3 {
+    font-size: 18px; }
+  .contacts-section .consultation-sale__box .description-title {
+    font-size: 14px; }
+
+.contacts-section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.doc {
+  margin: 27px 0 0;
+  width: 100%;
+  color: #767676;
+  font-size: 10px; }
+
+.contacts-item {
+  min-height: 83px;
+  padding: 0 19px 0 0;
+  border-right: 2px solid #C4C4C4; }
+  .contacts-item h3 {
+    margin: 0 0 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    max-width: 150px; }
+  .contacts-item .list-social {
+    margin: 12px 0 0;
+    width: 100%; }
+
+.phone-call {
+  color: #ED2823;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Exo 2", sans-serif; }
+
+.contacts-item-soc {
+  border: none;
+  padding: 0 0 0 18px; }
+
+/* bootstrap hack: fix content width inside hidden tabs */
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+  display: block;
+  /* undo display:none */
+  height: 0; }
+
+/* height:0 is also invisible */
+.tab-content > .active, .pill-content > .active {
+  height: auto; }
+
+/* let the content decide it */
+/* bootstrap hack end */
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -1330,7 +1451,17 @@ footer {
   .list-advantages h3 {
     font-size: 20px; }
   .list-advantages .number {
-    font-size: 70px; } }
+    font-size: 70px; }
+  .gallery-box {
+    max-width: none;
+    padding: 0 5px; }
+  .contacts-section-wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto 30px; }
+  .doc {
+    text-align: center; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -1448,7 +1579,13 @@ footer {
       font-size: 20px;
       max-width: none; }
   .image-advantages {
-    margin: 30px 0 0; } }
+    margin: 30px 0 0; }
+  .contacts-section .form-group {
+    max-width: none; }
+    .contacts-section .form-group .btn {
+      margin: 0 auto; }
+  .contacts-section {
+    margin: 30px 0; } }
 
 @media only screen and (max-width: 768px) {
   .header-bottom {
@@ -1577,7 +1714,13 @@ footer {
   .video-box {
     height: 400px; }
   .sale-section {
-    margin: 40px 0 0; } }
+    margin: 40px 0 0; }
+  .gallery-slider {
+    padding: 0; }
+  .main-contacts .map {
+    height: 300px; }
+  .phone-call {
+    font-size: 18px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px) {

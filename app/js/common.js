@@ -24,6 +24,30 @@ $('.reviews-slider').slick({
     ]
 });
 
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    $('.gallery-slider').slick('reinit');
+});
+
+$('.gallery-slider').slick({
+    slidesToShow: 3,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
+
+
+
 // Инициализация карты
 ymaps.ready(init);
 
@@ -126,3 +150,4 @@ function init () {
         //Линейка масштаба
         .add(new ymaps.control.ScaleLine());
 }
+
