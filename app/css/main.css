@@ -1324,7 +1324,13 @@ footer {
     .form-group:last-child {
       margin: 0 auto; }
   .reviews-slider {
-    padding: 0; } }
+    padding: 0; }
+  .main .consultation-sale__box .form-group {
+    max-width: none; }
+  .list-advantages h3 {
+    font-size: 20px; }
+  .list-advantages .number {
+    font-size: 70px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -1409,7 +1415,40 @@ footer {
     .main-service-page .box-text strong {
       margin: 20px 0 0; }
   .main-service-page h1 {
-    max-width: none; } }
+    max-width: none; }
+  .main .consultation-sale__box {
+    margin: 20px auto; }
+  .main-right {
+    padding: 40px 0 0; }
+  .img-decor {
+    width: 335px; }
+  .main h1 {
+    font-size: 50px; }
+  .main-text {
+    font-size: 18px;
+    max-width: none; }
+  .about-img {
+    margin: 30px auto 0; }
+  .about-section .box-text {
+    font-size: 18px; }
+  .sale-section img {
+    margin: 20px auto 0; }
+  .sale-section .box-text {
+    font-size: 18px; }
+  .advantages {
+    margin: 40px 0; }
+  .list-advantages li .number {
+    font-size: 50px;
+    margin: -10px 20px 0 0;
+    width: 30px;
+    min-width: 30px; }
+  .list-advantages {
+    margin: 30px 0 0; }
+    .list-advantages h3 {
+      font-size: 20px;
+      max-width: none; }
+  .image-advantages {
+    margin: 30px 0 0; } }
 
 @media only screen and (max-width: 768px) {
   .header-bottom {
@@ -1516,16 +1555,29 @@ footer {
   h2 {
     font-size: 30px; }
   .main-service-page h1 {
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; }
+  .main h1 {
+    font-size: 40px; }
+  .main-text {
+    margin: 0;
+    font-size: 16px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
-  h1 {
-    font-size: 30px; } }
+  h1, .main h1 {
+    font-size: 30px; }
+  .services-section, .category-auto {
+    margin: 0 0 30px; }
+  .about-section .box-text, .sale-section .box-text {
+    font-size: 16px; } }
 
 @media only screen and (max-width: 480px) {
   .header-top .btn {
-    display: none; } }
+    display: none; }
+  .video-box {
+    height: 400px; }
+  .sale-section {
+    margin: 40px 0 0; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px) {
@@ -1551,4 +1603,8 @@ footer {
     font-size: 13px; }
     .nav-pills .nav-link .icon-arrow {
       width: 18px;
-      height: 18px; } }
+      height: 18px; }
+  .adv-img {
+    max-width: 300px; }
+  .list-advantages h3 {
+    font-size: 18px; } }
