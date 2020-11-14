@@ -1019,6 +1019,50 @@ footer {
 .main-service-page .table-price {
   margin: 64px 0 67px; }
 
+.main {
+  background: url("../img/banner1.jpeg") no-repeat center;
+    background-size: cover;
+  color: #fff;
+  margin: 0 0 28px; }
+  .main h1 {
+    color: #fff;
+    font-size: 60px;
+    margin: 53px 0 27px; }
+  .main .consultation-sale__box {
+    position: relative;
+    z-index: 1;
+    max-width: 459px;
+    margin: 0 0 0 auto;
+    width: 100%;
+    padding: 23px 24px; }
+    .main .consultation-sale__box .form {
+      padding: 0;
+      margin: 24px 0 0; }
+    .main .consultation-sale__box .description-title {
+      max-width: 285px; }
+    .main .consultation-sale__box .form-group {
+      max-width: 212px; }
+      .main .consultation-sale__box .form-group:last-child {
+        max-width: 171px; }
+    .main .consultation-sale__box select, .main .consultation-sale__box input {
+      font-size: 13px; }
+
+.main-text {
+  font-size: 21px;
+  max-width: 510px;
+  font-weight: bold;
+  margin: 0 0 68px; }
+
+.main-right {
+  position: relative;
+  padding: 162px 0 0; }
+
+.img-decor {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  width: 525px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
