@@ -6,6 +6,24 @@ $('.btn-close').click(function () {
     $('.header-bottom').fadeOut();
 });
 
+$('.reviews-slider').slick({
+    slidesToShow: 3,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
+
 // Инициализация карты
 ymaps.ready(init);
 

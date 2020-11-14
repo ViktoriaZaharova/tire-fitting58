@@ -20,6 +20,18 @@
   .btn-accent
     font-size: 14px
 
+  .consultation-sale__box .form
+    padding: 0
+
+  .form-group
+    max-width: none
+    margin: 0 0 20px
+    &:last-child
+      margin: 0 auto
+
+  .reviews-slider
+    padding: 0
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   .nav-menu
@@ -84,6 +96,27 @@
   .form-questionnaire
     .consent
       text-align: left
+
+  .services-description
+    flex-direction: column
+    align-items: flex-start
+    .box-text
+      width: 100%
+      padding: 0
+      margin: 0 0 20px
+      font-size: 16px
+
+  .service-img
+    margin: 0 auto 20px
+
+  .consultation-sale__box .form
+    margin: 20px auto 0
+
+  .reviews-box
+    margin: 20px auto
+
+  h2
+    font-size: 40px
 
 @media only screen and (max-width: 768px)
   .header-bottom
@@ -188,6 +221,12 @@
       font-size: 18px
       max-width: 200px
 
+  .tab-content
+    margin: 20px 0 0
+
+  h2
+    font-size: 30px
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
   h1
@@ -200,6 +239,27 @@
 
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px)
-  /**/
+@media only screen and (max-width: 420px)
+  .table-price__row
+    flex-direction: column
+    align-items: flex-start
+    padding: 10px
+    border:
+      bottom: 1px solid #767676
+    &:last-child
+      border: none
+
+  .table-price__name, .table-price__category, .table-price__sum
+    border: none
+    padding: 0
+    width: 100%
+    margin: 0 0 10px
+
+  .nav-pills .nav-link
+    padding: 10px 12px
+    font-size: 13px
+    .icon-arrow
+      width: 18px
+      height: 18px
+
 
