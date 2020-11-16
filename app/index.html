@@ -72,7 +72,7 @@
                             <option value="Все адреса">Все адреса</option>
                         </select>
 
-                        <a href="#" class="btn btn-accent">записаться онлайн</a>
+                        <a href="#callback__modal" class="btn btn-accent open_modal">записаться онлайн</a>
 
                         <div class="btn-burger">
                             <span></span>
@@ -563,6 +563,21 @@
         </div>
     </div>
 </footer>
+
+<div class="modal__div" id="callback__modal">
+    <div class="modal__wrapper">
+        <div class="modal__close"></div>
+        <h2>Обратный звонок</h2>
+
+        <form method="post" class="form">
+            <label><input type="text" placeholder="Ваше имя" name="name"></label>
+            <label><input type="text" placeholder="Ваш телефон" name="phone"></label>
+            <button type="button" class="btn btn-accent">Отправить</button>
+            <div class="consent">Нажимая на кнопку вы даете согласие на обработку персональных данных</div>
+        </form>
+    </div>
+</div>
+<div class="overlay"></div><!-- Пoдлoжкa -->
 
 <script src="js/jquery.min.js"></script>
 <script src="js/libs.min.js"></script>
