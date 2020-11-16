@@ -46,6 +46,8 @@ $('.gallery-slider').slick({
     ]
 });
 
+$("[name='phone']").mask("+7 (999) 999 99 99");
+
 // модальные окна (несколько)
 $(document).ready(function () {
     var overlay = $('.overlay');
