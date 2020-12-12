@@ -1523,6 +1523,171 @@ footer {
   cursor: pointer;
   display: none; }
 
+.consultation-page {
+  margin: 87px 0 93px; }
+
+.main-page-details {
+  background: url("../img/bg-page1.png") no-repeat center;
+    background-size: cover;
+  padding: 69px 0 21px;
+  margin: 0 0 38px; }
+  .main-page-details h1 {
+    color: #fff;
+    margin: 0; }
+
+.page-details-info {
+  margin: 0 0 36px; }
+  .page-details-info .box-text {
+    margin: 44px 0 0;
+    font-size: 18px; }
+  .page-details-info .about-img {
+    max-height: 278px; }
+
+.stages-decision h2 {
+  text-align: center;
+  font-style: normal;
+  margin: 0 auto 36px;
+  font-size: 24px; }
+
+.stages-decision-box {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 285px;
+  color: #fff;
+  padding: 0 39px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 1; }
+  .stages-decision-box h3 {
+    font-size: 96px;
+    margin: 0 76px 0 0; }
+  .stages-decision-box > *:not(.stages-decision-box__img) {
+    position: relative; }
+
+.stages-decision-box__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.service-spike {
+  padding: 24px 0 211px;
+  position: relative; }
+  .service-spike:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 327px;
+    background: url("../img/decor2.svg") no-repeat center bottom;
+      background-size: cover; }
+  .service-spike h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 66px 0 30px;
+    max-width: 365px; }
+  .service-spike .box-text {
+    font-size: 24px;
+    max-width: 365px; }
+
+.service-spike-img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: 389px;
+  width: 100%; }
+  .service-spike-img:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 26px;
+    width: 522px;
+    height: 536px;
+    background: url("../img/decor3.svg") no-repeat center;
+      background-size: contain; }
+  .service-spike-img img {
+    position: relative; }
+
+.main-page-details2 {
+  background: url("../img/bg-page2.jpg") no-repeat right center;
+    background-size: cover; }
+
+.page-details-info2 .box-text {
+  margin: 66px -30px 0 0;
+  padding: 33px 28px 36px 44px;
+  background: #ED2823;
+  color: #fff;
+  -webkit-box-shadow: 0 4px 12px rgba(237, 40, 35, 0.25);
+          box-shadow: 0 4px 12px rgba(237, 40, 35, 0.25);
+  border-radius: 10px 0 0 10px;
+  font-size: 18px; }
+
+.page-details-info2 .about-img {
+  max-height: 418px;
+  height: 418px; }
+
+.powder-coating {
+  margin: 65px 0 16px; }
+  .powder-coating h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .powder-coating img {
+    margin: 0 auto;
+    max-width: 487px;
+    width: 100%; }
+
+.consultation-page-two {
+  margin: 0 0 93px; }
+
+.quality-painting h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.quality-painting img {
+  max-width: 529px;
+  margin: 0 0 0 -30px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -1685,7 +1850,25 @@ footer {
     .contacts-section .form-group .btn {
       margin: 0 auto; }
   .contacts-section {
-    margin: 30px 0; } }
+    margin: 30px 0; }
+  .page-details-info .box-text {
+    margin: 0;
+    font-size: 16px; }
+  .page-details-info2 .box-text {
+    border-radius: 10px;
+    padding: 20px; }
+  .page-details-info2 .about-img {
+    height: auto; }
+  .powder-coating {
+    margin: 30px 0 20px; }
+    .powder-coating h3 {
+      font-size: 20px; }
+  .consultation-page-two {
+    margin: 0 0 40px; }
+  .quality-painting h3 {
+    font-size: 20px; }
+  .quality-painting img {
+    max-width: 400px; } }
 
 @media only screen and (max-width: 768px) {
   .header-bottom {
@@ -1797,7 +1980,39 @@ footer {
     font-size: 40px; }
   .main-text {
     margin: 0;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .stages-decision-box {
+    font-size: 20px;
+    height: 220px; }
+    .stages-decision-box h3 {
+      font-size: 60px;
+      margin: 0 20px 0 0; }
+  .service-spike {
+    padding: 30px 0; }
+    .service-spike h3 {
+      margin: 0 0 20px;
+      font-size: 20px;
+      max-width: none; }
+    .service-spike .box-text {
+      font-size: 18px;
+      max-width: none; }
+  .service-spike-img {
+    margin: 30px auto 0; }
+  .powder-coating {
+    margin: 30px 0; }
+    .powder-coating h3 {
+      margin: 0 auto 30px;
+      font-size: 18px;
+      height: auto; }
+    .powder-coating img {
+      max-width: 300px; }
+  .quality-painting h3 {
+    margin: 0 auto 30px;
+    height: auto;
+    font-size: 18px; }
+  .quality-painting img {
+    max-width: 300px;
+    margin: 0 auto; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -1820,7 +2035,13 @@ footer {
   .main-contacts .map {
     height: 300px; }
   .phone-call {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .service-spike-img {
+    max-width: 220px; }
+    .service-spike-img:before {
+      width: 300px;
+      height: 280px;
+      left: -20px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px) {
