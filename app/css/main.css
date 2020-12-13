@@ -1788,6 +1788,166 @@ footer {
     -o-object-fit: cover;
        object-fit: cover; }
 
+.main-page-details4 {
+  background: url("../img/bg-page4.png") no-repeat center;
+    background-size: cover; }
+
+.effective-method {
+  margin: 79px 0 99px; }
+  .effective-method .box-text {
+    font-size: 24px; }
+
+.effective-method-box {
+  background: #ED2823;
+  color: #fff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 4px 12px rgba(237, 40, 35, 0.25);
+          box-shadow: 0 4px 12px rgba(237, 40, 35, 0.25);
+  border-radius: 10px;
+  padding: 28px 22px 46px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 100%; }
+
+.effective-method-box__icon {
+  margin: 0 auto 30px;
+  min-height: 88px; }
+
+.main-page-details5 {
+  background: url("../img/bg-page5.png") no-repeat center;
+    background-size: cover; }
+
+.page-details-info4 .box-text {
+  margin: 75px 0 0;
+  color: #fff;
+  background: #ED2823;
+  padding: 33px 40px 34px 43px;
+  border-radius: 10px;
+  min-width: 500px;
+  float: right; }
+
+.page-details-info4 .about-img {
+  max-height: 418px;
+  height: 418px; }
+
+.use-of-argon {
+  margin: 62px auto 66px; }
+  .use-of-argon h2 {
+    text-align: center;
+    margin: 0 auto 35px;
+    font-style: normal;
+    max-width: 455px;
+    font-size: 24px; }
+
+.use-of-argon-box {
+  border-radius: 10px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 24px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ED2823), to(#ED2823)), url("../img/img-page9.png") no-repeat center;
+  background: linear-gradient(0deg, #ED2823, #ED2823), url("../img/img-page9.png") no-repeat center;
+    background-size: cover;
+  background-blend-mode: soft-light, normal;
+  min-height: 191px;
+  height: 100%; }
+
+.use-of-argon-box-two {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ED2823), to(#ED2823)), url("../img/img-page10.png") no-repeat center;
+  background: linear-gradient(0deg, #ED2823, #ED2823), url("../img/img-page10.png") no-repeat center;
+    background-size: cover; }
+
+.use-of-argon-box-three {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ED2823), to(#ED2823)), url("../img/img-page11.png") no-repeat center;
+  background: linear-gradient(0deg, #ED2823, #ED2823), url("../img/img-page11.png") no-repeat center;
+    background-size: cover; }
+
+.use-of-argon-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0 auto 13px;
+  border: 5px solid #FFFFFF;
+    border-radius: 50px;
+  width: 82px;
+  height: 82px;
+  font-size: 36px; }
+
+.argon-services {
+  padding: 0 0 94px;
+  margin: 0 0 68px;
+  position: relative; }
+  .argon-services .box-text {
+    background: #ED2823;
+    color: #fff;
+    margin: 64px 0 0;
+    min-width: 506px;
+    border-radius: 10px;
+    padding: 34px 45px 34px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1; }
+  .argon-services:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 327px;
+    background: url("../img/decor2.svg") no-repeat center bottom;
+      background-size: cover; }
+
+.argon-services-img {
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-height: 386px;
+  height: 386px;
+  overflow: hidden; }
+  .argon-services-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -1999,7 +2159,26 @@ footer {
   .slogan {
     padding: 20px 0;
     margin: 30px auto;
-    font-size: 20px; } }
+    font-size: 20px; }
+  .effective-method {
+    margin: 40px 0 30px; }
+    .effective-method .box-text {
+      margin: 0 0 30px;
+      font-size: 18px; }
+  .page-details-info4 .about-img {
+    height: auto; }
+  .page-details-info4 .box-text {
+    min-width: auto;
+    padding: 20px; }
+  .use-of-argon {
+    margin: 40px 0 20px; }
+  .use-of-argon-box {
+    height: auto;
+    margin: 0 0 30px; }
+  .argon-services {
+    margin: 0 0 40px; }
+    .argon-services .box-text {
+      font-size: 18px; } }
 
 @media only screen and (max-width: 768px) {
   .header-bottom {
@@ -2150,7 +2329,14 @@ footer {
     margin: 0 0 30px;
     font-size: 18px; }
     .thanks-procedure .box-text {
-      margin: 0 auto 30px; } }
+      margin: 0 auto 30px; }
+  .argon-services-img {
+    height: 100%;
+    min-height: 300px; }
+  .argon-services .box-text {
+    min-width: auto;
+    margin: 0 auto 30px;
+    padding: 20px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -2159,7 +2345,10 @@ footer {
   .services-section, .category-auto {
     margin: 0 0 30px; }
   .about-section .box-text, .sale-section .box-text {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .effective-method-box {
+    margin: 0 0 20px;
+    height: auto; } }
 
 @media only screen and (max-width: 480px) {
   .header-top .btn {
