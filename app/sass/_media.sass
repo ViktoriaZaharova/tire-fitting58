@@ -53,6 +53,18 @@
   .doc
     text-align: center
 
+  .callback-section__consultation .form
+    padding: 0
+
+  .callback-section__consultation .form .consent
+    margin: 0 0 0 auto
+
+  .callback-section__consultation .form
+    label
+      margin: 0 0 10px
+      width: 100%
+      max-width: none
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   .nav-menu
@@ -280,6 +292,22 @@
     .box-text
       font-size: 18px
 
+  .list-maps
+    padding: 0
+    &:before
+      display: none
+
+  .callback-section__consultation
+    margin: 20px 0 0
+    p
+      font-size: 16px
+    .form
+      button
+        margin: 0 auto 10px
+
+  .callback-section__content
+    padding: 25px 30px
+
 @media only screen and (max-width: 768px)
   .header-bottom
     display: none
@@ -458,6 +486,18 @@
       margin: 0 auto 30px
       padding: 20px
 
+  .callback-section__content
+    margin: 0 auto 20px
+
+  .list-maps
+    flex-direction: row
+    align-items: center
+    flex-wrap: wrap
+    justify-content: space-between
+
+  .callback-section
+    padding: 50px 0
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
   h1, .main h1
@@ -472,6 +512,19 @@
   .effective-method-box
     margin: 0 0 20px
     height: auto
+
+  .modal-content
+    padding: 30px
+
+  .form-step
+    button
+      margin: 20px auto 10px
+
+  .form-description
+    font-size: 16px
+    br
+      display: none
+
 
 @media only screen and (max-width: 480px)
   .header-top
@@ -499,6 +552,12 @@
       width: 300px
       height: 280px
       left: -20px
+
+  .modal-footer
+    flex-direction: column
+    align-items: center
+    .btn
+      margin: 0 auto 10px
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px)
