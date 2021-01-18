@@ -108,7 +108,7 @@ function init() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -122,7 +122,7 @@ function init() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -136,7 +136,7 @@ function init() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -210,7 +210,7 @@ function initTab2() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc2.svg',  // картинка иконки
+            iconImageHref: '../img/loc2.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -224,7 +224,7 @@ function initTab2() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -238,7 +238,7 @@ function initTab2() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -252,7 +252,7 @@ function initTab2() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -266,7 +266,7 @@ function initTab2() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -312,7 +312,7 @@ function initTab3() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -326,7 +326,7 @@ function initTab3() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -340,7 +340,7 @@ function initTab3() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc2.svg',  // картинка иконки
+            iconImageHref: '../img/loc2.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -354,7 +354,7 @@ function initTab3() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -368,7 +368,7 @@ function initTab3() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -414,7 +414,7 @@ function initTab4() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -428,7 +428,7 @@ function initTab4() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -442,7 +442,7 @@ function initTab4() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -456,7 +456,7 @@ function initTab4() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc2.svg',  // картинка иконки
+            iconImageHref: '../img/loc2.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -470,7 +470,7 @@ function initTab4() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -516,7 +516,7 @@ function initTab5() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc2.svg',  // картинка иконки
+            iconImageHref: '../img/loc2.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -530,7 +530,7 @@ function initTab5() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -544,7 +544,7 @@ function initTab5() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -558,7 +558,7 @@ function initTab5() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -572,7 +572,7 @@ function initTab5() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -618,7 +618,7 @@ function initTab6() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -632,7 +632,7 @@ function initTab6() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc2.svg',  // картинка иконки
+            iconImageHref: '../img/loc2.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -646,7 +646,7 @@ function initTab6() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -660,7 +660,7 @@ function initTab6() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -674,7 +674,7 @@ function initTab6() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -720,7 +720,7 @@ function initTab7() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -734,7 +734,7 @@ function initTab7() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -748,7 +748,7 @@ function initTab7() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -762,7 +762,7 @@ function initTab7() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc.svg',  // картинка иконки
+            iconImageHref: '../img/loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -776,7 +776,7 @@ function initTab7() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/img/loc2.svg',  // картинка иконки
+            iconImageHref: '../img/loc2.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
