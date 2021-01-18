@@ -802,3 +802,5 @@ function initTab7() {
         //Линейка масштаба
         .add(new ymaps.control.ScaleLine());
 }
+
+new WOW().init();
