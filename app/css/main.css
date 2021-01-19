@@ -1429,12 +1429,13 @@ footer {
 /* bootstrap hack: fix content width inside hidden tabs */
 .tab-content > .tab-pane, .pill-content > .pill-pane {
   display: block;
-  /* undo display:none */
-  height: 0; }
+  height: 0;
+  overflow: hidden; }
 
 /* height:0 is also invisible */
 .tab-content > .active, .pill-content > .active {
-  height: auto; }
+  height: auto;
+  overflow: visible; }
 
 /* let the content decide it */
 /* bootstrap hack end */

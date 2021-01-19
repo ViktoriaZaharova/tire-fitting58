@@ -24,11 +24,7 @@ $('.reviews-slider').slick({
     ]
 });
 
-$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-    $('.gallery-slider').slick('reinit');
-    map.redraw(); // Перерисовывает карту
-    // return false;
-});
+
 
 $('.gallery-slider').slick({
     slidesToShow: 3,
@@ -47,6 +43,13 @@ $('.gallery-slider').slick({
         }
     ]
 });
+
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    $('.gallery-slider').slick('reinit');
+    map.redraw(); // Перерисовывает карту
+    // return false;
+});
+
 
 $("[name='phone']").mask("+7 (999) 999 99 99");
 
@@ -150,7 +153,7 @@ function init() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/loc.svg',  // картинка иконки
+            iconImageHref: '../loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
@@ -164,7 +167,7 @@ function init() {
             iconContent: '',
 
         }, {
-            iconImageHref: '/loc.svg',  // картинка иконки
+            iconImageHref: '../loc.svg',  // картинка иконки
             iconImageSize: [27, 46],                                      // размеры картинки
             // iconImageOffset: [-70, -40],// смещение картинки
 
