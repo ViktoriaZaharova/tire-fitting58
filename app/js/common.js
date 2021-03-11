@@ -6,6 +6,35 @@ $('.btn-close').click(function () {
     $('.header-bottom').fadeOut();
 });
 
+$('.garage-box__slider-in').slick({
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrow: true,
+    dots: false,
+    prevArrow: $('.garage-left'),
+    nextArrow: $('.garage-right'),
+    dotsClass: 'slick-dots slider__dots',
+    responsive: [
+        {
+            breakpoint: 1025,
+            settings: {
+                dots: false,
+                slidesToShow: 1,
+                infinite: true,
+            }
+        },
+        {
+            breakpoint: 720,
+            settings: {
+                slidesToShow: 1,
+                infinite: true,
+                dots: false
+            }
+        }
+    ]
+});
+
 $('.reviews-slider').slick({
     slidesToShow: 3,
     responsive: [

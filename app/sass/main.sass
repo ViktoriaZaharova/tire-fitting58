@@ -258,7 +258,17 @@ label
   align-items: center
   justify-content: center
 
+body
+  padding: 127px 0 0
+
 //header
+header
+  position: fixed
+  z-index: 4
+  background: #fff
+  left: 0
+  top: 0
+  width: 100%
 .header-top
   padding: 15px 0 27px
 
@@ -685,6 +695,10 @@ footer
   width: 100%
   padding: 0 100px
   margin: 20px 0 0
+  .slick-slide
+    padding: 20px
+  .slick-track, .slick-list
+    display: flex
 
 .slick-slide
   outline: none
@@ -721,7 +735,7 @@ footer
 .reviews-box
   background: #fff
   border-radius: 10px
-  margin: 20px
+  //margin: 20px
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
   height: 100%
   max-width: 267px
@@ -729,6 +743,10 @@ footer
   overflow: hidden
   padding: 24px 25px 22px
   font-size: 14px
+  display: flex
+  flex-direction: column
+  .box-text
+    margin: 0 0 auto
 
 .reviews-box__photo
   border-radius: 50%
@@ -2005,6 +2023,729 @@ footer
     height: 100%
     object-fit: cover
 
+//index landing
+.greeting
+  max-width: 49.9115044248%
+  width: 100%
+  min-height: calc(100vh - 158px)
+  position: relative
+  z-index: 2
+
+
+.greeting-form
+  background: #ED2823
+  -webkit-box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  -moz-box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  padding: 23px
+  width: 100%
+  max-width: 470px
+  margin-top: 59px
+
+.greeting-form__title
+  font-weight: bold
+  font-size: 24px
+  line-height: 33px
+  text-transform: uppercase
+  color: #FFFFFF
+
+.greeting-form__subtitle
+  font-weight: normal
+  font-size: 18px
+  line-height: 25px
+  color: #FFFFFF
+  margin-bottom: 22px
+
+.greeting-form__box
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+
+.greeting-form__col
+  .form-control
+    width: 212px
+
+  &:nth-child(1)
+    width: 60%
+    -webkit-box-flex: 1
+    -webkit-flex: 1 0 auto
+    -moz-box-flex: 1
+    -ms-flex: 1 0 auto
+    flex: 1 0 auto
+
+  &:nth-child(2)
+    width: auto
+    display: -webkit-box
+    display: -webkit-flex
+    display: -moz-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -moz-box-orient: vertical
+    -moz-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-align: end
+    -webkit-align-items: flex-end
+    -moz-box-align: end
+    -ms-flex-align: end
+    align-items: flex-end
+
+  .btn
+    margin-bottom: 17px
+
+  select
+    margin-bottom: 17px
+    border-color: #fff
+    background-image: url('../img/arrow.svg')
+    color: #fff
+    width: 100%
+
+
+  .help
+    max-width: 150px
+
+.greeting-cover
+  padding-bottom: 75px
+
+  &:after
+    content: ""
+    position: absolute
+    right: 0
+    top: 0
+    bottom: 0
+    background: url("../img/1.png") right bottom no-repeat
+      size: contain
+    width: 100%
+    height: 100%
+    max-height: 768px
+    max-width: 1215px
+    //max-height: 1248px
+
+.main-subtitle
+  font-weight: normal
+  font-size: 21px
+  line-height: 29px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -moz-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  color: #403F41
+
+.main-title
+  font-family: $font
+  font-style: italic
+  font-weight: bold
+  text-transform: uppercase
+  font-size: 3.125rem
+  line-height: 3.75rem
+  text-align: left
+  color: #000000
+  margin-bottom: 15px
+
+.btn-primary
+  background: #FFFFFF
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  font-weight: bold
+  font-size: 14px
+  line-height: 19px
+  text-align: center
+  text-transform: uppercase
+  color: #403F41
+  min-width: 171px
+  height: 30px
+
+.help
+  font-size: 9px
+  color: #fff
+  line-height: 12px
+  font-weight: normal
+
+.advantage
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: normal
+  -webkit-flex-direction: row
+  -moz-box-orient: horizontal
+  -moz-box-direction: normal
+  -ms-flex-direction: row
+  flex-direction: row
+  margin-top: 45px
+  margin-bottom: 80px
+
+.advantage-item
+  width: 45%
+  padding-right: 100px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -moz-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  margin-bottom: 50px
+
+.advantage-item__icon
+  margin-right: 39px
+
+.advantage-cover
+  position: relative
+
+  .main-title
+    width: 100%
+    max-width: 550px
+
+  &:after
+    content: ""
+    position: absolute
+    right: 20px
+    top: 0
+    bottom: 0
+    background: url("../img/2.png") right (center / contain) no-repeat
+    width: 100%
+    height: 100%
+    min-height: 151px
+    min-width: 150px
+    max-width: 316px
+    max-height: 318px
+    margin: auto 0
+
+.price-head
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  margin-bottom: 45px
+  .main-title
+    white-space: nowrap
+    width: auto
+
+  p
+    font-weight: normal
+    font-size: 24px
+    line-height: 33px
+    text-transform: uppercase
+    margin-left: 77px
+    color: #403F41
+
+.price-first
+  width: 100%
+  //max-width: 49.1150442478%
+  background: #FFFFFF
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15)
+  -moz-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15)
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15)
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: justify
+  -webkit-justify-content: space-between
+  -moz-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -moz-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  padding: 10px 20px
+  margin-bottom: 17px
+
+  span
+    -webkit-box-flex: 1
+    -webkit-flex: 1 0 auto
+    -moz-box-flex: 1
+    -ms-flex: 1 0 auto
+    flex: 1 0 auto
+
+    &:nth-child(1)
+      font-weight: bold
+      font-size: 14px
+      line-height: 19px
+      color: #403F41
+
+    &:nth-child(2)
+      font-weight: bold
+      font-size: 14px
+      line-height: 19px
+      text-transform: uppercase
+      text-align: center
+      color: #ED2823
+
+
+.price-list
+  background: #F9F9F9
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  padding: 11px 20px
+  width: 100%
+  //max-width: 49.1150442478%
+
+  ul
+    width: 100%
+
+    li
+      display: -webkit-box
+      display: -webkit-flex
+      display: -moz-box
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-align: center
+      -webkit-align-items: center
+      -moz-box-align: center
+      -ms-flex-align: center
+      align-items: center
+      margin-bottom: 30px
+
+      &:nth-last-child(1)
+        margin-bottom: 10px
+
+      span
+        display: -webkit-box
+        display: -webkit-flex
+        display: -moz-box
+        display: -ms-flexbox
+        display: flex
+
+        &:nth-child(1)
+          font-weight: normal
+          font-size: 14px
+          line-height: 19px
+          color: #403F41
+          max-width: 75.5%
+          width: 100%
+          -webkit-box-flex: 0
+          -webkit-flex: 0 0 auto
+          -moz-box-flex: 0
+          -ms-flex: 0 0 auto
+          flex: 0 0 auto
+
+        &:nth-child(2)
+          font-weight: bold
+          font-size: 14px
+          line-height: 19px
+          color: #403F41
+          -webkit-box-flex: 1
+          -webkit-flex: 1 0 auto
+          -moz-box-flex: 1
+          -ms-flex: 1 0 auto
+          flex: 1 0 auto
+
+.complex-section
+  margin: 100px 0 0
+
+.complex
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -moz-box-orient: vertical
+  -moz-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
+
+.complex-box
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: justify
+  -webkit-justify-content: space-between
+  -moz-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+  margin-top: 30px
+
+.complex-box__left
+  width: 48%
+  background: url("../img/5.png") 0 (0 / contain) no-repeat
+  max-width: 429px
+  height: 555px
+
+.complex-box__right
+  width: 52%
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -moz-box-orient: vertical
+  -moz-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
+
+.complex-item
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  margin-bottom: 30px
+
+.complex-item__ico
+  margin-right: 24px
+  width: 76px
+  min-width: 76px
+  height: 76px
+  border-radius: 50%
+  background: #ED2823
+  display: flex
+  align-items: center
+  justify-content: center
+  box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  padding: 10px
+  img
+    max-height: 100%
+
+
+.complex-item__info
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -moz-box-orient: vertical
+  -moz-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
+  width: 100%
+
+.complex-item__title
+  font-weight: bold
+  font-size: 24px
+  line-height: 33px
+  text-transform: uppercase
+  color: #403F41
+  margin-bottom: 12px
+
+.complex-item__text
+  font-weight: normal
+  font-size: 14px
+  line-height: 19px
+  color: #403F41
+
+.ul
+  padding-top: 15px
+  padding-bottom: 15px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+
+  li
+    padding-left: 0
+    position: relative
+    font-weight: normal
+    font-size: 12px
+    line-height: 16px
+    color: #403F41
+    display: -webkit-box
+    display: -webkit-flex
+    display: -moz-box
+    display: -ms-flexbox
+    display: flex
+    width: 50%
+    margin: 0 0 12px
+    &:last-child
+      margin: 0
+    &:before
+      content: ""
+      background: url("../img/check.svg") 0 (0 / contain) no-repeat
+      width: 18px
+      height: 18px
+      min-width: 18px
+      border-radius: 50%
+      display: inline-block
+      margin-right: 13px
+
+.sale-section-professional
+  margin: 0
+  .text
+    font-size: 21px
+    margin: 39px 0 0
+    color: #403F41
+  .consultation-box
+    margin: 60px 0 0
+
+.sale-section-content
+  position: relative
+  z-index: 1
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: center
+
+.garage-section
+  padding: 50px 0 0
+
+.advantages-two
+  margin: 100px 0 0
+
+.garage-left, .garage-right
+  width: 44px
+  height: 44px
+  background: url("../img/arrow_left.svg") 48% (center / 16px) 27px #ED2823 no-repeat
+  display: block
+  -webkit-box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  -moz-box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  -webkit-border-radius: 50%
+  -moz-border-radius: 50%
+  border-radius: 50%
+  position: absolute
+  top: 0
+  left: 50px
+  bottom: 0
+  margin: auto 0
+
+.garage-left.slick-disabled
+  opacity: 0.3
+  cursor: default
+
+.garage-right
+  left: inherit
+  right: 30px
+  -webkit-transform: rotate(180deg)
+  -moz-transform: rotate(180deg)
+  -ms-transform: rotate(180deg)
+  -o-transform: rotate(180deg)
+  transform: rotate(180deg)
+  &.slick-disabled
+    opacity: 0.3
+    cursor: default
+
+.garage-box
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  margin-top: 43px
+
+.garage-box__all
+  background: #ED2823
+  -webkit-box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  -moz-box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  box-shadow: 0px 4px 12px rgba(237, 40, 35, 0.25)
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  font-weight: bold
+  font-size: 14px
+  line-height: 19px
+  text-transform: uppercase
+  color: #FFFFFF
+  width: 100%
+  padding: 6px 13px 6px 20px
+  margin-top: 47px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -moz-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: justify
+  -webkit-justify-content: space-between
+  -moz-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+  &:hover
+    color: #fff
+
+.garage-box__text
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -moz-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  font-weight: normal
+  font-size: 14px
+  line-height: 19px
+  color: #403F41
+  margin-bottom: 27px
+
+  svg
+    margin-right: 11px
+
+.garage-box__address
+  max-width: 32%
+  width: 100%
+
+.garage-box__slider
+  width: calc(100% - 32%)
+  padding: 0 30px 0 50px
+  flex: 1 0 auto
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -moz-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  position: relative
+
+.garage-box__slider-in
+  width: 100%
+  padding: 0 60px
+  margin: 0 auto
+
+.garage-box__slider-item
+  display: -webkit-box !important
+  display: -webkit-flex !important
+  display: -moz-box !important
+  display: -ms-flexbox !important
+  display: flex !important
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -webkit-box-pack: justify
+  -webkit-justify-content: space-between
+  -moz-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+
+  img
+    width: 268px
+    height: 150px
+    margin-bottom: 24px
+
+.garage-box__item
+  background: #FFFFFF
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15)
+  -moz-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15)
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15)
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  margin-bottom: 19px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: flex
+  padding: 14px 16px
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -moz-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-transition: background 0.1s ease-in
+  -o-transition: background 0.1s ease-in
+  -moz-transition: background 0.1s ease-in
+  transition: background 0.1s ease-in
+  position: relative
+
+.garage-box__item-air:before
+  content: ""
+  width: 24px
+  height: 28px
+  background: url("../img/air.svg") 0 (0 / contain) no-repeat
+  display: block
+  position: absolute
+  top: 13px
+  right: 8px
+
+.garage-box__item-ico
+  margin-right: 23px
+
+  svg path
+    -webkit-transition: fill 0.1s ease-in
+    -o-transition: fill 0.1s ease-in
+    -moz-transition: fill 0.1s ease-in
+    transition: fill 0.1s ease-in
+
+.garage-box__item-title
+  font-weight: bold
+  font-size: 18px
+  line-height: 25px
+  color: #000000
+  margin-bottom: 4px
+  -webkit-transition: color 0.1s ease-in
+  -o-transition: color 0.1s ease-in
+  -moz-transition: color 0.1s ease-in
+  transition: color 0.1s ease-in
+
+.garage-box__item-text
+  font-weight: normal
+  font-size: 18px
+  line-height: 25px
+  color: #000000
+  -webkit-transition: color 0.1s ease-in
+  -o-transition: color 0.1s ease-in
+  -moz-transition: color 0.1s ease-in
+  transition: color 0.1s ease-in
+
+.garage-box__item
+  &:hover, &.active
+    background: #ED2823
+
+  &:hover
+    .garage-box__item-title, .garage-box__item-text
+      color: #fff
+
+  &.active
+    .garage-box__item-title, .garage-box__item-text
+      color: #fff
+
+  &:hover path, &.active path
+    fill: #fff
+
+  &:hover.garage-box__item-air:before, &.active.garage-box__item-air:before
+    background-image: url("../img/air_active.svg")
 
 @import "media"
 // Всегда в конце

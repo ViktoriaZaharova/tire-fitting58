@@ -65,6 +65,16 @@
       width: 100%
       max-width: none
 
+  .garage-box__slider-item img
+    width: 170px
+    height: auto
+
+  .garage-box__address
+    max-width: 40%
+
+  .garage-box__slider
+    width: calc(100% - 40%)
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   .nav-menu
@@ -145,8 +155,8 @@
   .consultation-sale__box .form
     margin: 20px auto 0
 
-  .reviews-box
-    margin: 20px auto
+  //.reviews-box
+  //  margin: 20px auto
 
   h2
     font-size: 40px
@@ -307,6 +317,16 @@
 
   .callback-section__content
     padding: 25px 30px
+
+  .ul li
+    width: 100%
+
+  .complex-section
+    margin: 50px 0
+
+
+  body
+    padding: 163px 0 0
 
 @media only screen and (max-width: 768px)
   .header-bottom
@@ -498,6 +518,55 @@
   .callback-section
     padding: 50px 0
 
+  .price-section img
+    max-width: 400px
+    width: 100%
+    margin: 20px auto 0
+
+  .sale-section-professional .text
+    font-size: 16px
+    margin: 20px 0 0
+
+  .sale-section-professional .consultation-box
+    margin: 40px 0 0
+
+  .garage-box__item-title, .garage-box__item-text
+    font-size: 14px
+    line-height: 19px
+
+  .garage-box__item-ico
+    margin: 0 10px 0 0
+
+  .garage-box__address, .garage-box__slider
+    max-width: 100%
+    width: 100%
+
+  .garage-box
+    flex-wrap: wrap
+
+  .garage-box__slider
+    padding: 0
+    margin: 30px 0 0
+
+  .garage-box__slider-item img
+    &:nth-child(5)
+      display: none
+
+  .garage-box__slider-in
+    padding: 0 30px
+
+  .garage-left
+    left: 0
+
+  .garage-right
+    right: 0
+
+  .garage-box__all
+    margin: 20px 0 0
+
+  body
+    padding: 60px 0 0
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
   h1, .main h1
@@ -525,6 +594,21 @@
     br
       display: none
 
+  .reviews-slider
+    .slick-track, .slick-list
+      display: block
+    .slick-slide
+      padding: 20px 10px
+
+  h2
+    font-size: 24px
+
+  .garage-box__slider-item img
+    margin: 0 auto
+    max-width: 204px
+
+    &:not(:nth-child(1))
+      display: none
 
 @media only screen and (max-width: 480px)
   .header-top
@@ -588,5 +672,380 @@
 
   .list-advantages h3
     font-size: 18px
+
+
+
+
+
+
+@media only screen and (max-width: 1368px)
+  .greeting-cover
+    padding-bottom: 42px
+
+  .greeting-cover:after
+    max-width: 800px
+    max-height: 700px
+    top: 40px
+
+  .advantage-item__text
+    font-size: 18px
+    line-height: 25px
+
+  .advantage-item
+    width: 35%
+    padding-right: 20px
+
+@media only screen and (max-width: 1024px)
+  .greeting-form__col .btn
+    max-width: 150px
+    margin-left: 0
+    height: 44px
+    min-width: 150px
+
+  .price-head
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -moz-box-orient: vertical
+    -moz-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+
+
+
+@media all and (max-width: 719px)
+  .main-title
+    font-size: 24px
+    line-height: 112%
+    margin-bottom: 9px
+
+  .main-subtitle
+    font-size: 12px
+    line-height: 19px
+
+  .greeting
+    max-width: 100%
+
+  .greeting-form
+    max-width: -webkit-calc(100vw - 64px)
+    max-width: -moz-calc(100vw - 64px)
+    max-width: calc(100vw - 64px)
+    margin-left: auto
+    margin-right: auto
+    margin-top: 32px
+
+  .greeting-form__title
+    font-size: 18px
+    line-height: 25px
+
+  .greeting-form__subtitle
+    font-size: 14px
+    line-height: 19px
+
+  .greeting-form__box
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -moz-box-orient: vertical
+    -moz-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+
+  .greeting-form__col .form-control
+    max-width: 186px
+    margin-bottom: 26px
+
+  .greeting-form__col:nth-child(1)
+    width: 100%
+
+  .greeting-form__col:nth-child(2)
+    justify-content: center
+    align-items: center
+    max-width: none
+    width: 100%
+
+  .greeting-form__col select
+    //max-width: 186px
+    width: 100%
+
+  .greeting-form__col .help
+    max-width: none
+
+  .greeting-cover:after
+    display: none
+
+  .greeting-cover__mob
+    background: url("../img/1_mob.png") center (0 / contain) no-repeat
+    width: 100%
+    height: auto
+    max-width: 355px
+    max-height: 390px
+    min-height: 364px
+    margin: auto
+
+  .main-subtitle
+    font-size: 12px
+    line-height: 16px
+
+  .advantage
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -moz-box-orient: vertical
+    -moz-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    margin-bottom: 10px
+    margin-top: 25px
+
+  .advantage-item
+    width: 100%
+    padding-right: 0
+    margin-bottom: 28px
+
+  .advantage-item__icon
+    margin-right: 10px
+
+    svg
+      width: 42px
+      height: 42px
+
+  .advantage-item__text
+    font-size: 14px
+    line-height: 19px
+
+  .advantage-cover .main-title
+    max-width: 100%
+
+  .advantage-cover:after
+    position: static
+    display: block
+    width: 252px
+    height: 221px
+    margin: 0 auto 39px
+
+  .price-head
+    margin: 0 0 20px
+    p
+      text-align: left
+      margin-left: 0
+      font-size: 14px
+      line-height: 19px
+      max-width: none
+
+  .price-first
+    max-width: 100%
+
+  .price-first span:nth-child(1)
+    width: 70%
+
+  .price-first span:nth-child(2)
+    width: 30%
+
+  .price-list
+    max-width: 100%
+
+  .price-list ul li
+    margin-bottom: 20px
+
+  .price-list ul li span:nth-child(1)
+    font-size: 12px
+    line-height: 16px
+    max-width: 65%
+    margin-right: 25px
+
+  .price-list ul li span:nth-child(2)
+    font-size: 12px
+    line-height: 16px
+
+  .complex-item__ico
+    width: 53px
+    min-width: 53px
+    height: 53px
+    margin-right: 13px
+
+  .complex-item__title
+    font-size: 14px
+    line-height: 19px
+    margin-bottom: 6px
+
+  .complex-item__text
+    font-size: 12px
+    line-height: 16px
+
+  .complex-box__right
+    width: 100%
+
+  .complex-box__left
+    width: 100%
+    max-width: 256px
+    height: 331px
+    margin: 0 auto
+
+  .complex-box
+    -webkit-box-orient: vertical
+    -webkit-box-direction: reverse
+    -webkit-flex-direction: column-reverse
+    -moz-box-orient: vertical
+    -moz-box-direction: reverse
+    -ms-flex-direction: column-reverse
+    flex-direction: column-reverse
+
+  .garage-box__item-text
+    font-size: 14px
+    line-height: 19px
+
+  .garage-box__slider-item img
+    margin-left: auto
+    margin-right: auto
+    max-width: 204px
+
+
+  .garage-box__slider
+    width: 100%
+
+  .garage-box__address
+    max-width: 100%
+
+  .garage-box__all
+    margin: 20px auto 0
+
+  .garage-box
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -moz-box-orient: vertical
+    -moz-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    margin-top: 13px
+
+
+
+@media all and (min-width: 2000px)
+  .advantage-cover:after
+    right: -webkit-calc((100vw - 2000px)/2)
+    right: -moz-calc((100vw - 2000px)/2)
+    right: calc((100vw - 2000px)/2)
+
+@media all and (min-width: 1920px)
+  .greeting
+    min-height: -webkit-calc(100vh / 2)
+    min-height: -moz-calc(100vh / 2)
+    min-height: calc(100vh / 2)
+
+  .greeting-cover:after
+    right: -webkit-calc((100vw - 2000px)/2)
+    right: -moz-calc((100vw - 2000px)/2)
+    right: calc((100vw - 2000px)/2)
+
+
+@media only screen and (max-width: 1024px) and (min-width: 720px)
+  .main-subtitle
+    font-size: 18px
+    line-height: 25px
+
+  .main-title
+    font-size: 28px
+    line-height: 34px
+
+@media all and (min-width: 720px) and (max-width: 1024px)
+  .greeting
+    max-width: 66.911504%
+    min-height: auto
+    padding-top: 15px
+
+  .greeting-cover:after
+    width: 370px
+    height: 479px
+    min-height: 479px
+    top: -97px
+
+  .greeting
+    .main-title, .main-subtitle
+      width: 60%
+
+  .greeting-form__col:nth-child(1)
+    margin-right: 20px
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 auto
+    -moz-box-flex: 0
+    -ms-flex: 0 0 auto
+    flex: 0 0 auto
+    width: auto
+    display: -webkit-box
+    display: -webkit-flex
+    display: -moz-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -moz-box-orient: vertical
+    -moz-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+
+  .greeting-cover
+    position: relative
+
+  .greeting-cover:after
+    width: 370px
+    height: 479px
+    min-height: 479px
+    top: -97px
+
+  .advantage
+    margin-top: 25px
+    margin-bottom: 40px
+
+  .advantage-item
+    padding-right: 5%
+    -webkit-box-align: start
+    -webkit-align-items: flex-start
+    -moz-box-align: start
+    -ms-flex-align: start
+    align-items: flex-start
+    width: 35%
+
+  .advantage-item__icon
+    margin-right: 30px
+
+    svg
+      width: 30px
+      height: 30px
+
+  .advantage-item__text
+    font-size: 14px
+    line-height: 19px
+
+  .advantage-cover:after
+    width: 150px
+    height: 151px
+    margin-top: 98px
+
+  .price-head
+    margin-bottom: 24px
+
+  .price-head p
+    font-size: 18px
+    line-height: 25px
+    text-align: left
+    margin-left: 0
+    width: 65%
+
+  .complex-item__ico
+    width: 60px
+    min-width: 60px
+    height: 60px
+
+  .complex-box__right
+    padding-left: 30px
+
+  .garage-box__slider-item img
+    margin: 0 auto 20px
+    height: auto
+    &:nth-last-child(1), &:nth-last-child(2), &:nth-last-child(3)
+      display: none
 
 
